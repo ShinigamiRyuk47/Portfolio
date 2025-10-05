@@ -45,15 +45,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Robotics Engineer 🤖 crafting intelligent, adaptive, and autonomous systems — blending controls 🎛️, planning 🧭, and real-world mechatronics 🦾.",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚙️ Develop control and motion-planning algorithms for autonomous and multi-agent coordination."),
+    emoji("🧭 Implement robust SLAM and navigation pipelines in ROS2 / Nav2 / DDS."),
+    emoji("🦾 Design soft actuators and embedded systems for responsive, human-safe robotics."),
+    emoji("💻 Simulate and prototype robotic environments in Gazebo, Webots and Issac Sim."),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
