@@ -57,59 +57,31 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+  // --- Core Programming & Systems ---
+  { skillName: "python", fontAwesomeClassname: "fab fa-python" },
+  { skillName: "c++", fontAwesomeClassname: "fas fa-code" },
+  { skillName: "matlab", fontAwesomeClassname: "fas fa-square-root-alt" },
+  { skillName: "linux", fontAwesomeClassname: "fab fa-linux" },
+  { skillName: "docker", fontAwesomeClassname: "fab fa-docker" },
+  { skillName: "git", fontAwesomeClassname: "fab fa-git-alt" },
+
+  // --- Robotics Frameworks & Simulation ---
+  { skillName: "ros2", fontAwesomeClassname: "fas fa-robot" },
+  { skillName: "gazebo", fontAwesomeClassname: "fas fa-cubes" },
+  { skillName: "pybullet", fontAwesomeClassname: "fas fa-bullseye" },
+  { skillName: "webots", fontAwesomeClassname: "fas fa-project-diagram" },
+  { skillName: "isaac sim", fontAwesomeClassname: "fas fa-cube" },
+
+  // --- Perception & Design ---
+  { skillName: "openCV", fontAwesomeClassname: "fas fa-camera" },
+  { skillName: "solidworks", fontAwesomeClassname: "fas fa-cogs" },
+  { skillName: "ansys", fontAwesomeClassname: "fas fa-drafting-compass" },
+  { skillName: "3D printing", fontAwesomeClassname: "fas fa-print" },
+
+  // --- Embedded Systems ---
+  { skillName: "arduino", fontAwesomeClassname: "fas fa-microchip" },
+  { skillName: "raspberry pi", fontAwesomeClassname: "fas fa-microchip" },
+],
   display: true // Set false to hide this section, defaults to true
 };
 
