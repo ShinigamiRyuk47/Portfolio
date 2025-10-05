@@ -23,8 +23,8 @@ const greeting = {
   username: "Aditya Bharambe",
   title: "Hi all, I'm Aditya",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
+    "A passionate Robotics Engineer 🤖 working on intelligent, adaptive and collaborative robotic systems — blending controls 🎛️, planning 🧭, and SLAM 🗺️ to enable real-time autonomy. Experienced in ROS2 / Nav2 / DDS, multi-agent coordination, and soft robotic systems 🧠🤝."
+),
   resumeLink:
     "/myresume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
