@@ -87,7 +87,7 @@ softwareSkills: [
 
   // --- Embedded Systems & Hardware ---
   { skillName: "Arduino", fontAwesomeClassname: "fas fa-microchip" },
-  { skillName: "Raspberry Pi", fontAwesomeClassname: "fas fa-microchip" },
+  { skillName: "Raspberry Pi", fontAwesomeClassname: "fa-solid fa-microchip" },
 ],
   display: true // Set false to hide this section, defaults to true
 };
