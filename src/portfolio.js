@@ -98,23 +98,26 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Carnegie Mellon University",
+      logo: require("./assets/images/cmuLogo.png"),
+      subHeader: "Master of Science in Mechanical Engineering - Research",
+      duration: "August 2023 - May 2025",
+      desc: "Graduate researcher specializing in soft robotics, control systems, and multi-agent planning and coordination.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Coursework: Robot Dynamics & Analysis, Simultaneous Localization & Mapping (SLAM), Planning & Decision Making, Multi-agent Path Planning, Modern Control Theory, Advanced Controls, Soft Robotics",
+        "Course Assistant: Advanced Control Systems Integration, Robot Dynamics & Analysis"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Vishwakarma Institute of Technology",
+      logo: require("./assets/images/vitLogo.png"),
+      subHeader: "Bachelor of Technology in Mechanical Engineering",
+      duration: "August 2019 – May 2023",
+      desc: "Completed undergraduate studies focused on robotics, automation, and mechanical design.",
+      descBullets: [
+        "Coursework: Robot Mechanics and Control, Machine Design, FEA, FEM, Data Structures, Data Science and ML, Hybrid Vehicles",
+        "Leadership: Student Mentor (Mechanical Department)"
+      ]
     }
   ]
 };
