@@ -3,15 +3,16 @@ name: 🚀 Build and Deploy to GitHub Pages
 on:
   push:
     branches:
-      - master       # Auto-deploy whenever master is updated
-  workflow_dispatch:  # Allow manual runs from the Actions tab
+      - master
+  workflow_dispatch:
   schedule:
-    - cron: "0 12 * * 1"  # Optional: rebuild every Monday at noon
+    - cron: "0 12 * * 1"
 
 env:
   CI: false
   USE_GITHUB_DATA: "true"
-  MEDIUM_USERNAME: ""     # Change this if you integrate Medium
+  GITHUB_USERNAME: "ShinigamiRyuk47"   # 👈 your GitHub username
+  MEDIUM_USERNAME: ""                  # (optional, leave blank if unused)
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
@@ -22,7 +23,7 @@ jobs:
       - name: 🛎️ Checkout repository
         uses: actions/checkout@v4
         with:
-          persist-credentials: false   # Required for gh-pages push to work
+          persist-credentials: false
 
       - name: 🔧 Setup Node.js
         uses: actions/setup-node@v4
@@ -38,8 +39,8 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: gh-pages             # Deploy branch
-          folder: build                # Folder to deploy
-          clean: true                  # Remove old files → always newest build
-          single-commit: true          # Keeps history clean
+          branch: gh-pages
+          folder: build
+          clean: true
+          single-commit: true
           commit-message: "Auto-deploy: ${{ github.sha }}"
