@@ -13,6 +13,7 @@ env:
   USE_GITHUB_DATA: "true"
   GITHUB_USERNAME: "ShinigamiRyuk47"   # 👈 your GitHub username
   MEDIUM_USERNAME: ""                  # (optional, leave blank if unused)
+  REACT_APP_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 👈 add this line
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
