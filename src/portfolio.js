@@ -56,31 +56,38 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
+softwareSkills: [
   // --- Core Programming & Systems ---
-  { skillName: "python", fontAwesomeClassname: "fab fa-python" },
-  { skillName: "c++", fontAwesomeClassname: "fas fa-code" },
-  { skillName: "matlab", fontAwesomeClassname: "fas fa-square-root-alt" },
-  { skillName: "linux", fontAwesomeClassname: "fab fa-linux" },
-  { skillName: "docker", fontAwesomeClassname: "fab fa-docker" },
-  { skillName: "git", fontAwesomeClassname: "fab fa-git-alt" },
+  { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+  { skillName: "C++", fontAwesomeClassname: "fas fa-code" },
+  { skillName: "MATLAB", fontAwesomeClassname: "fas fa-square-root-alt" },
+  { skillName: "Simulink", fontAwesomeClassname: "fas fa-project-diagram" },
+  { skillName: "Linux", fontAwesomeClassname: "fab fa-linux" },
+  { skillName: "Docker", fontAwesomeClassname: "fab fa-docker" },
+  { skillName: "Git", fontAwesomeClassname: "fab fa-git-alt" },
 
   // --- Robotics Frameworks & Simulation ---
-  { skillName: "ros2", fontAwesomeClassname: "fas fa-robot" },
-  { skillName: "gazebo", fontAwesomeClassname: "fas fa-cubes" },
-  { skillName: "pybullet", fontAwesomeClassname: "fas fa-bullseye" },
-  { skillName: "webots", fontAwesomeClassname: "fas fa-project-diagram" },
-  { skillName: "isaac sim", fontAwesomeClassname: "fas fa-cube" },
+  { skillName: "ROS/ROS2", fontAwesomeClassname: "fas fa-robot" },
+  { skillName: "Gazebo", fontAwesomeClassname: "fas fa-cubes" },
+  { skillName: "PyBullet", fontAwesomeClassname: "fas fa-bullseye" },
+  { skillName: "Webots", fontAwesomeClassname: "fas fa-network-wired" },
+  { skillName: "Isaac Sim", fontAwesomeClassname: "fas fa-vr-cardboard" },
 
-  // --- Perception & Design ---
-  { skillName: "openCV", fontAwesomeClassname: "fas fa-camera" },
-  { skillName: "solidworks", fontAwesomeClassname: "fas fa-cogs" },
-  { skillName: "ansys", fontAwesomeClassname: "fas fa-drafting-compass" },
-  { skillName: "3D printing", fontAwesomeClassname: "fas fa-print" },
+  // --- Perception, Sensors & Vision ---
+  { skillName: "OpenCV", fontAwesomeClassname: "fas fa-camera" },
+  { skillName: "IMU Sensors", fontAwesomeClassname: "fas fa-compass" },
+  { skillName: "LIDAR", fontAwesomeClassname: "fas fa-dot-circle" },
+  { skillName: "GPS", fontAwesomeClassname: "fas fa-map-marker-alt" },
+  { skillName: "Cameras", fontAwesomeClassname: "fas fa-video" },
 
-  // --- Embedded Systems ---
-  { skillName: "arduino", fontAwesomeClassname: "fas fa-microchip" },
-  { skillName: "raspberry pi", fontAwesomeClassname: "fas fa-microchip" },
+  // --- Design, Analysis & Fabrication ---
+  { skillName: "SolidWorks", fontAwesomeClassname: "fas fa-cogs" },
+  { skillName: "ANSYS", fontAwesomeClassname: "fas fa-drafting-compass" },
+  { skillName: "3D Printing", fontAwesomeClassname: "fas fa-print" },
+
+  // --- Embedded Systems & Hardware ---
+  { skillName: "Arduino", fontAwesomeClassname: "fas fa-microchip" },
+  { skillName: "Raspberry Pi", fontAwesomeClassname: "fas fa-microchip" },
 ],
   display: true // Set false to hide this section, defaults to true
 };
