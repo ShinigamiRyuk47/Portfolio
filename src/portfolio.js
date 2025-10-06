@@ -101,7 +101,7 @@ const educationInfo = {
       schoolName: "Carnegie Mellon University",
       logo: require("./assets/images/cmuLogo.png"),
       subHeader: "Master of Science in Mechanical Engineering - Research",
-      duration: "August 2023 - May 2025",
+      duration: "Aug 2023 - May 2025",
       desc: "Graduate researcher specializing in soft robotics, control systems, and multi-agent planning and coordination.",
       descBullets: [
         "Coursework: Robot Dynamics & Analysis, Simultaneous Localization & Mapping (SLAM), Planning & Decision Making, Multi-agent Path Planning, Modern Control Theory, Advanced Controls, Soft Robotics",
@@ -112,7 +112,7 @@ const educationInfo = {
       schoolName: "Vishwakarma Institute of Technology",
       logo: require("./assets/images/vitLogo.png"),
       subHeader: "Bachelor of Technology in Mechanical Engineering",
-      duration: "August 2019 - May 2023",
+      duration: "Aug 2019 - May 2023",
       desc: "Completed undergraduate studies focused on robotics, automation, and mechanical design.",
       descBullets: [
         "Coursework: Robot Mechanics and Control, Machine Design, FEA, FEM, Data Structures, Data Science and ML, Hybrid Vehicles",
@@ -149,29 +149,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Research Staff",
+      company: "Biorobotics Lab, CMU Robotics Institute",
+      companylogo: require("./assets/images/bioroboticsLabLogo.png"),
+      date: "June 2023 – Present",
+      desc: "Working under Prof. Howie Choset at the CMU Robotics Institute on multi-agent coordination and decentralized navigation frameworks using ROS2.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Optimized ROS2 Nav2 + DDS networking for scalable multi-agent deployments, achieving >95% reliability in decentralized coordination.",
+        "Enhanced AMCL-based localization pipelines to deliver >90% accuracy with 5 cm tolerance in dynamic maps.",
+        "Designed multi-objective ergodic path tracking pipelines enabling long-term trajectory tracking without interruptions, integrated with SLAM and a Regulated Pure Pursuit Controller for robust navigation."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Engineering Intern",
+      company: "Forbes Marshall Pvt. Ltd.",
+      companylogo: require("./assets/images/ForbesMarshallLogo.png"),
+      date: "Jan 2023 – June 2023",
+      desc: "Worked with the Industrial Automation team to enhance manufacturing workflows through robotic-assisted process optimization.",
+      descBullets: [
+      "Performed time and motion analysis of boiler manufacturing processes to identify productivity bottlenecks.",
+      "Redesigned drilling and welding workflows by integrating robotic-assisted techniques, reducing cycle time across multi-stage operations.",
+      "Optimized fixture design and streamlined mechanical processes, achieving a 75% increase in productivity.",
+      "Collaborated cross-functionally to implement automation strategies enhancing consistency and safety in industrial setups."
+    ]
     }
   ]
 };
